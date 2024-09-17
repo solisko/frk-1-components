@@ -1,4 +1,6 @@
 import React from "react";
+import styles from "./Login.module.css"
+
 
 const Password = ({onUserChange}) => {
 
@@ -8,7 +10,7 @@ const Password = ({onUserChange}) => {
   };
 
   return (
-    <div>
+    <div className={styles.passwordContainer}>
       Password
       <input type="password" onChange={onChange} />
     </div>
