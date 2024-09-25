@@ -1,3 +1,3 @@
-import Login from "./Login";
+import Login from "./Login"; // default export, import från jsx filen
 
 export { Login };
